@@ -42,8 +42,6 @@ function diceRoll() {
 
 
     if (p1Roll > p2Roll){
-        document.querySelector("h1").textContent = "-";
-        setTimeout(,1000);
         document.querySelector("h1").textContent = "🚩 Player 1 Wins";
     } else if (p2Roll > p1Roll) {
         document.querySelector("h1").textContent = "Player 2 Wins 🚩";
